@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>README 提取器</title>
-  <style>
-    body { 
-      margin: 0; padding: 20px; 
-      background-color: #0d1117; color: #c9d1d9; 
-      font-family: system-ui, -apple-system, sans-serif; 
-      display: flex; flex-direction: column; 
-      height: 100vh; box-sizing: border-box; 
-    }
-    h3 { margin-top: 0; color: #58a6ff; font-size: 18px; }
-    .info { color: #8b949e; font-size: 14px; margin-bottom: 15px; }
-    code { background: #1f2428; padding: 2px 6px; border-radius: 4px; color: #ff7b72; }
-    textarea { 
-      flex: 1; width: 100%; 
-      background-color: #161b22; color: #c9d1d9; 
-      border: 1px solid #30363d; border-radius: 6px; 
-      padding: 15px; 
-      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; 
-      font-size: 14px; line-height: 1.5;
-      resize: none; outline: none; box-sizing: border-box; 
-      white-space: pre; overflow-wrap: normal; overflow-x: auto; 
-    }
-    textarea:focus { border-color: #58a6ff; box-shadow: 0 0 0 3px rgba(88,166,255,0.3); }
-  </style>
-</head>
-<body>
-  <h3>🛠️ README 纯文本提取器</h3>
-  <div class="info">
-    为防止系统自动渲染格式，请点击下方<strong>黑色文本框</strong>，它会自动为您全选。<br>
-    然后按 <code>Ctrl+C</code> (Mac: <code>Cmd+C</code>) 复制，直接粘贴到 GitHub 的 README 即可。
-  </div>
-  
-  <textarea readonly id="readmeText" onclick="this.select()"># 🌍 W.W.III Prediction Terminal (第三次世界大战预测终端)
+# 🌍 W.W.III Prediction Terminal (第三次世界大战预测终端)
 
 [English](#english) | [中文](#中文-chinese)
 
@@ -177,6 +140,4 @@ npm run dev
 
 > 本项目仅为**前端技术演示、数据可视化实验与娱乐目的**而构建。预测的倒计时时间、AI 打分逻辑及新闻情感判定**不具有任何现实世界的科学指导意义**。请勿将其作为真实世界冲突的判断依据。
 
-*Stay safe, stay informed.*</textarea>
-</body>
-</html>
+*Stay safe, stay informed.*
